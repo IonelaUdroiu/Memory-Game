@@ -90,7 +90,7 @@ function unmatched(openCard) {
 		openCard.classList.remove("open", "show", "disable", "unmatch");
 	}, 1000);
 }
-//check if two flipped cards match
+//check if two flipped cards match (function from https://patibugaj.github.io/fend-project-memory-game/)
 function openCard() {
 	openedCards.push(this);
 	let len = openedCards.length;
